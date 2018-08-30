@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christofferEkblom/squarify-images.git"
+    "url": "git+https://github.com/christofferEkblom/squarifier.git"
   },
   "keywords": [
     "square",
@@ -28,8 +28,8 @@
   "author": "Christoffer Ekblom",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/christofferEkblom/squarify-images/issues"
+    "url": "https://github.com/christofferEkblom/squarifier/issues"
   },
-  "homepage": "https://github.com/christofferEkblom/squarify-images#readme",
+  "homepage": "https://github.com/christofferEkblom/squarifier#readme",
   "readmeFilename": "README.md"
 }
