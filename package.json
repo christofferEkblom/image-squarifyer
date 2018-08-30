@@ -30,5 +30,6 @@
   "bugs": {
     "url": "https://github.com/christofferEkblom/squarify-images/issues"
   },
-  "homepage": "https://github.com/christofferEkblom/squarify-images#readme"
+  "homepage": "https://github.com/christofferEkblom/squarify-images#readme",
+  "readmeFilename": "README.md"
 }
