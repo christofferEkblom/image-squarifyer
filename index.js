@@ -2,12 +2,12 @@
  * Copyright 2018 Christoffer Ekblom
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the ISC license.
- * For more info, see https://github.com/christofferEkblom/squarify-images/blob/master/LICENSE
+ * For more info, see https://github.com/christofferEkblom/squarifier/blob/master/LICENSE
  */
 
 'use strict';
 
-let squarifyer = require('./src');
+let squarifier = require('./src');
 let settings = require('./src/settings.js');
 let program = require('commander');
 
@@ -19,7 +19,7 @@ program.parse(process.argv);
 let size = program.size ? program.size : settings.DEFAULT_CANVAS_SIZE;
 let color = program.color ? program.color : settings.DEFAULT_BACKGROUND_COLOR;
 
-squarifyer(program.directory, parseInt(size), parseInt(color))
+squarifier(program.directory, parseInt(size), parseInt(color))
   .catch(err => {
     console.log(err);
   }).then((counter) => {
