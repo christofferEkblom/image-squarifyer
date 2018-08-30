@@ -2,7 +2,7 @@
   "name": "squarify-images",
   "version": "1.0.0",
   "description": "Transforms images in a directory to perfect squares",
-  "main": "src/image-squarifyer.js",
+  "main": "src/index.js",
   "dependencies": {
     "commander": "^2.17.1",
     "jimp": "^0.3.10",

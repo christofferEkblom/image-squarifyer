@@ -7,7 +7,7 @@
 
 'use strict';
 
-let sut = require('../src/image-squarifyer.js');
+let sut = require('../src');
 let unzipper = require('unzipper');
 let fs = require('fs');
 let jimp = require('jimp');

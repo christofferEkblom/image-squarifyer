@@ -7,7 +7,7 @@
 
 'use strict';
 
-let squarifyer = require('./src/image-squarifyer');
+let squarifyer = require('./src');
 let settings = require('./src/settings.js');
 let program = require('commander');
 
