@@ -17,7 +17,7 @@ module.exports = (directory, size, bgColor) => {
     let files;
 
     if (!validCanvasSize(size)) {
-      return reject(new Error(`image size must be a in the interval 1-${settings.CANVAS_MAX_SIZE}`));
+      return reject(new Error(`image size must be a in the interval 1-${settings.CANVAS_SIZE_LIMIT}`));
     }
 
     if (!validColor(bgColor)) {
