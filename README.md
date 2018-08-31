@@ -44,5 +44,7 @@ output usage information
 * png
 * tiff
 
+Other formats will be ignored.
+
 ## Author
 * Christoffer Ekblom
