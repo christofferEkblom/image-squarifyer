@@ -1,3 +1,6 @@
+[![npm package](https://img.shields.io/npm/v/squarifier.svg)](https://www.npmjs.com/package/squarifier)
+[![npm package](https://img.shields.io/npm/dm/squarifier.svg)](https://www.npmjs.com/package/squarifier)
+
 # squarifier
 Transforms images in a directory to perfect squares.
 
