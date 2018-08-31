@@ -37,5 +37,12 @@ background color (default is 0xffffffff)
 ``-h, --help ``
 output usage information
 
+## Supported image formats
+* bmp
+* gif
+* jpeg
+* png
+* tiff
+
 ## Author
 * Christoffer Ekblom
