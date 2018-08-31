@@ -1,5 +1,5 @@
 # squarifier
-Transforms images in a directory to perfect squares
+Transforms images in a directory to perfect squares.
 
 ## Installation
 ``npm i squarifier``
@@ -23,6 +23,8 @@ squarifier('path/to/img/folder', 1200, 0x000000FF)
 ```
 node path/to/squarifier/index.js -d path/to/img/folder -s 1200 -c 0x000000FF
 ```
+
+For more examples, see [examples](https://github.com/christofferEkblom/squarifier/tree/master/examples).
 
 ## CLI options
 ``-d, --directory [path]``
