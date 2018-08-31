@@ -21,8 +21,7 @@ squarifier('path/to/img/folder', 1200, 0x000000FF)
 
 ### Solution 2: CLI
 ```
-cd path/to/squarifier
-node index.js -d path/to/img/folder -s 1200 -c 0x000000FF
+node path/to/squarifier/index.js -d path/to/img/folder -s 1200 -c 0x000000FF
 ```
 
 ## Author
