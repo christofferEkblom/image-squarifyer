@@ -24,5 +24,18 @@ squarifier('path/to/img/folder', 1200, 0x000000FF)
 node path/to/squarifier/index.js -d path/to/img/folder -s 1200 -c 0x000000FF
 ```
 
+## CLI options
+``-d, --directory [path]``
+target directory (required)
+
+``-s --size [integer]``
+ output canvas size (default is 1000)
+
+``-c --color [0xrrggbbaa]``
+background color (default is 0xffffffff)
+
+``-h, --help ``
+output usage information
+
 ## Author
 * Christoffer Ekblom
