@@ -53,5 +53,8 @@ output usage information
 
 Other formats will be ignored.
 
+## Requirements
+* Node version 7.6.0 and above
+
 ## Author
 * Christoffer Ekblom
