@@ -1,3 +1,4 @@
+[![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)](https://github.com/christofferEkblom/squarifier/blob/master/LICENSE)
 [![npm package](https://img.shields.io/npm/v/squarifier.svg)](https://www.npmjs.com/package/squarifier)
 [![npm package](https://img.shields.io/npm/dm/squarifier.svg)](https://www.npmjs.com/package/squarifier)
 [![Build Status](https://travis-ci.org/christofferEkblom/squarifier.svg?branch=master)](https://travis-ci.org/christofferEkblom/squarifier)
