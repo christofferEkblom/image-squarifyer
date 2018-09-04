@@ -16,10 +16,10 @@ program.option('-s --size [integer]', `output canvas size (default is ${settings
 program.option('-c --color [0xrrggbbaa]', `background color (default is 0x${settings.DEFAULT_BACKGROUND_COLOR.toString(16)})`);
 program.parse(process.argv);
 
-let size = program.size ? program.size : settings.DEFAULT_CANVAS_SIZE;
-let color = program.color ? program.color : settings.DEFAULT_BACKGROUND_COLOR;
+let size = parseInt(program.size ? program.size : settings.DEFAULT_CANVAS_SIZE);
+let color = parseInt(program.color ? program.color : settings.DEFAULT_BACKGROUND_COLOR);
 
-squarifier(program.directory, parseInt(size), parseInt(color))
+squarifier(program.directory, size, color)
   .catch(err => {
     console.log(err);
   }).then((counter) => {
