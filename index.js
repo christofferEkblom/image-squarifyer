@@ -19,9 +19,15 @@ program.parse(process.argv);
 let size = parseInt(program.size ? program.size : settings.DEFAULT_CANVAS_SIZE);
 let color = parseInt(program.color ? program.color : settings.DEFAULT_BACKGROUND_COLOR);
 
-squarifier(program.directory, size, color)
-  .catch(err => {
-    console.log(err);
-  }).then((counter) => {
-    console.log(`Done. Changed ${counter} files.`);
-  });
+(async () => {
+  let numberOfChanges;
+
+  try {
+    numberOfChanges = await squarifier(program.directory, size, color);
+  } catch (err) {
+    console.error(err);
+    process.exit(9);
+  }
+
+  console.log(`Done. Changed ${numberOfChanges} files.`);
+})();
