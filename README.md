@@ -8,7 +8,7 @@
 Transforms images in a directory to perfect squares.
 
 ## Installation
-``npm i squarifier``
+``npm i squarifier`` or ``yarn add squarifier`` 
 
 ## Usage
 If you want to squarify all of the images in a given directory with a max size of 1200 pixels and fill the margin with a black background color, you can do the following:
